@@ -1,0 +1,32 @@
+	
+	Linux less命令详解
+	https://www.cnblogs.com/luxiaojun/p/6439663.html
+	https://www.cnblogs.com/aijianshi/p/5750911.html
+
+
+    卸载软件
+    apt remove xxx
+    apt purge xxx
+    apt autoremove xxx
+
+
+    网络相关
+    systemctl restart networking
+    systemctl stop networking
+    systemctl start networking
+    systemctl status networking
+
+
+    查看进程
+    ps -ef | grep whereami
+    netstat -tanulp|grep rinetd
+    ss -tunlp
+
+
+
+    杀死进程
+    kill -9 -pid
+
+
+    启动tomcat
+    /usr/local/lanboys/apache-tomcat-9.0.6/bin/catalina.sh start

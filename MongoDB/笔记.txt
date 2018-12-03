@@ -1,0 +1,3 @@
+https://www.cnblogs.com/leinov/p/7341139.html
+
+mongod --fork --logpath /data/db/dblog.log --dbpath /data/db/ --rest

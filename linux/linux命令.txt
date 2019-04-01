@@ -22,6 +22,17 @@
     netstat -tanulp|grep rinetd
     ss -tunlp
 
+    查看用户
+    cat /etc/passwd
+    添加用户
+    adduser lanbing
+    设置/修改密码
+    passwd lanbing
+
+
+    检查用户git是否连接主机github.com
+    ssh -T git@github.com
+
 
 
     杀死进程
@@ -30,3 +41,9 @@
 
     启动tomcat
     /usr/local/lanboys/apache-tomcat-9.0.6/bin/catalina.sh start
+
+
+    远程登录redis
+    redis-cli -h host -p 6379 -a password
+    查询值
+    keys xxxxx

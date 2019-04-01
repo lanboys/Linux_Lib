@@ -9,6 +9,11 @@
 [\[\e[0;36m\]\w\[\e[0m\]]#
 
 http://blog.sina.com.cn/s/blog_96a11ddf0102vbb7.html
+https://www.linuxidc.com/Linux/2014-10/108195.htm
+这里的主要操作是 /root/.bashrc
+
+$ vim /root/.bashrc
+$ source /root/.bashrc
 
 并在.bashrc中添加color_prompt=yes和修改PS1
 
